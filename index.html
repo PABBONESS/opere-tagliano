@@ -114,6 +114,11 @@
                     <span class="info-label">TECNICA</span>
                     <p id="card-technique" class="info-value technique">--</p>
                   </div>
+                  
+                  <div class="info-group">
+                    <span class="info-label">PERIODO STORICO</span>
+                    <p id="card-period" class="info-value period">--</p>
+                  </div>
                 </div>
               </div>
               
@@ -195,6 +200,11 @@
               </select>
             </div>
             <div class="select-wrapper">
+              <select id="filter-period">
+                <option value="">Tutti i periodi</option>
+              </select>
+            </div>
+            <div class="select-wrapper">
               <select id="filter-technique">
                 <option value="">Tutte le tecniche</option>
               </select>
@@ -238,6 +248,10 @@
             <div class="info-group">
               <span class="info-label">TECNICA</span>
               <p id="modal-technique" class="info-value technique">--</p>
+            </div>
+            <div class="info-group flex-row">
+              <span class="info-label-inline">Periodo Storico:</span>
+              <span id="modal-period" class="info-value-inline">--</span>
             </div>
             <div class="info-group flex-row">
               <span class="info-label-inline">Numero Catalogo:</span>

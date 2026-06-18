@@ -24,6 +24,7 @@ const cardNumber = document.getElementById('card-number');
 const cardAuthor = document.getElementById('card-author');
 const cardTitle = document.getElementById('card-title');
 const cardTechnique = document.getElementById('card-technique');
+const cardPeriod = document.getElementById('card-period');
 const btnStarCard = document.getElementById('btn-star-card');
 
 // Progress & Stats
@@ -47,6 +48,7 @@ const btnFilterStarred = document.getElementById('btn-filter-starred');
 // Library & Filters
 const librarySearch = document.getElementById('library-search');
 const filterAuthor = document.getElementById('filter-author');
+const filterPeriod = document.getElementById('filter-period');
 const filterTechnique = document.getElementById('filter-technique');
 const btnClearFilters = document.getElementById('btn-clear-filters');
 const libraryGrid = document.getElementById('library-grid');
@@ -58,6 +60,7 @@ const modalImage = document.getElementById('modal-image');
 const modalAuthor = document.getElementById('modal-author');
 const modalTitle = document.getElementById('modal-title');
 const modalTechnique = document.getElementById('modal-technique');
+const modalPeriod = document.getElementById('modal-period');
 const modalIndex = document.getElementById('modal-index');
 const modalClose = document.getElementById('modal-close');
 const modalCloseBackdrop = document.getElementById('modal-close-backdrop');
@@ -104,15 +107,18 @@ function saveState() {
 // Build dropdown options dynamically from OPERE_DATA
 function buildFilters() {
   const authors = new Set();
+  const periods = new Set();
   const techniques = new Set();
   
   OPERE_DATA.forEach(item => {
     if (item.autore) authors.add(item.autore);
+    if (item.periodo) periods.add(item.periodo);
     if (item.tecnica) techniques.add(item.tecnica);
   });
   
   // Sort alphabetically
   const sortedAuthors = [...authors].sort();
+  const sortedPeriods = [...periods].sort();
   const sortedTechniques = [...techniques].sort();
   
   // Populate Authors select
@@ -121,6 +127,14 @@ function buildFilters() {
     opt.value = author;
     opt.textContent = author;
     filterAuthor.appendChild(opt);
+  });
+  
+  // Populate Periods select
+  sortedPeriods.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p;
+    opt.textContent = p;
+    filterPeriod.appendChild(opt);
   });
   
   // Populate Techniques select
@@ -182,6 +196,7 @@ function renderCard() {
     cardAuthor.textContent = "--";
     cardTitle.textContent = "--";
     cardTechnique.textContent = "--";
+    cardPeriod.textContent = "--";
     cardImage.src = "";
     cardBackImage.src = "";
     return;
@@ -198,6 +213,7 @@ function renderCard() {
   cardAuthor.textContent = item.autore || "Autore Ignoto";
   cardTitle.textContent = item.titolo || "Senza Titolo";
   cardTechnique.textContent = item.tecnica || "Tecnica non specificata";
+  cardPeriod.textContent = item.periodo || "Periodo non specificato";
   
   // Update star button state
   if (starredSet.has(item.id)) {
@@ -358,21 +374,24 @@ function renderLibraryGrid() {
   
   const searchVal = librarySearch.value.toLowerCase().trim();
   const selectedAuthor = filterAuthor.value;
+  const selectedPeriod = filterPeriod.value;
   const selectedTech = filterTechnique.value;
   
   let matches = OPERE_DATA.filter(item => {
-    // Search match (checks author, title, technique, ID)
+    // Search match (checks author, title, technique, period, ID)
     const matchesSearch = !searchVal || 
       (item.autore && item.autore.toLowerCase().includes(searchVal)) ||
       (item.titolo && item.titolo.toLowerCase().includes(searchVal)) ||
       (item.tecnica && item.tecnica.toLowerCase().includes(searchVal)) ||
+      (item.periodo && item.periodo.toLowerCase().includes(searchVal)) ||
       String(item.id) === searchVal;
       
     // Dropdown matches
     const matchesAuthor = !selectedAuthor || item.autore === selectedAuthor;
+    const matchesPeriod = !selectedPeriod || item.periodo === selectedPeriod;
     const matchesTech = !selectedTech || item.tecnica === selectedTech;
     
-    return matchesSearch && matchesAuthor && matchesTech;
+    return matchesSearch && matchesAuthor && matchesPeriod && matchesTech;
   });
   
   libraryResultsCount.textContent = matches.length;
@@ -413,6 +432,7 @@ function renderLibraryGrid() {
 function clearFilters() {
   librarySearch.value = '';
   filterAuthor.value = '';
+  filterPeriod.value = '';
   filterTechnique.value = '';
   renderLibraryGrid();
 }
@@ -425,6 +445,7 @@ function openModal(item) {
   modalAuthor.textContent = item.autore || "Autore Ignoto";
   modalTitle.textContent = item.titolo || "Senza Titolo";
   modalTechnique.textContent = item.tecnica || "Tecnica non specificata";
+  modalPeriod.textContent = item.periodo || "Periodo non specificato";
   modalIndex.textContent = `Opera ${item.id} di 107`;
   
   detailModal.classList.add('active');
@@ -508,6 +529,7 @@ function setupEventListeners() {
   // Library filtering
   librarySearch.addEventListener('input', renderLibraryGrid);
   filterAuthor.addEventListener('change', renderLibraryGrid);
+  filterPeriod.addEventListener('change', renderLibraryGrid);
   filterTechnique.addEventListener('change', renderLibraryGrid);
   btnClearFilters.addEventListener('click', clearFilters);
   

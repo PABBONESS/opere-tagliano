@@ -5,748 +5,855 @@ const OPERE_DATA = [
     "immagine": "Opera1.png",
     "autore": "PITTORE IRLANDESE",
     "titolo": "BOOK OF KELLS, CAPOLETTERA",
-    "tecnica": "TEMPERA SU PERGAMENA"
+    "tecnica": "TEMPERA SU PERGAMENA",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 2,
     "immagine": "Opera2.png",
     "autore": "PITTORE DI REIMS",
     "titolo": "SALTERIO DI UTRECHT",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 3,
     "immagine": "Opera3.png",
     "autore": "PITTORE AUSTRIACO",
     "titolo": "IL VENERABILE BEDA",
-    "tecnica": "PENNA E INCHIOSTRO BLU E ROSSO E ACQUERELLO SU PERGAMENA"
+    "tecnica": "PENNA E INCHIOSTRO BLU E ROSSO E ACQUERELLO SU PERGAMENA",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 4,
     "immagine": "Opera4.png",
     "autore": "TADDEO GADDI",
     "titolo": "LA PRESENTAZIONE DELLA VERGINE AL TEMPIO",
-    "tecnica": "PENNELLO, ACQUERELLO, LUMEGGIATURE BIANCHE E ORO SU CARTA PREPARATA VERDE"
+    "tecnica": "PENNELLO, ACQUERELLO, LUMEGGIATURE BIANCHE E ORO SU CARTA PREPARATA VERDE",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 5,
     "immagine": "Opera5.png",
     "autore": "SEGUACE DI SIMONE MARTINI",
     "titolo": "ALLEGORIA DELLA TEMPERANZA",
-    "tecnica": "PUNTA D'ARGENTO SU C.P. IN ROSSO"
+    "tecnica": "PUNTA D'ARGENTO SU C.P. IN ROSSO",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 6,
     "immagine": "Opera6.png",
     "autore": "MAESTRO DEL PARAMENTO DI NARBONNE",
     "titolo": "ARCIERE",
-    "tecnica": "PENNELLO E INCHIOSTRO NERO SU PERGAMENA"
+    "tecnica": "PENNELLO E INCHIOSTRO NERO SU PERGAMENA",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 7,
     "immagine": "Opera7.png",
     "autore": "L'EDUCAZIONE DI MARIA",
     "titolo": "PITTORE TEDESCO",
-    "tecnica": "PENNA E INCHIOSTRO NERO"
+    "tecnica": "PENNA E INCHIOSTRO NERO",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 8,
     "immagine": "Opera8.png",
     "autore": "PITTORE LOMBARDO",
     "titolo": "SCENA DI CACCIA",
-    "tecnica": "PENNA, PENNELLO E INCHIOSTRO RIALZATO DI BIANCO SU CARTA PREPARATA VERDE"
+    "tecnica": "PENNA, PENNELLO E INCHIOSTRO RIALZATO DI BIANCO SU CARTA PREPARATA VERDE",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 9,
     "immagine": "Opera9.png",
     "autore": "GENTILE DA FABRIANO",
     "titolo": "NUDI FEMMNILI E ALTRE FIGURE",
-    "tecnica": "PENNA SU PERGAMENA"
+    "tecnica": "PENNA SU PERGAMENA",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 10,
     "immagine": "Opera10.png",
     "autore": "GIOVANNINO DE GRASSI",
     "titolo": "DUE DAME CON CETRA",
-    "tecnica": "INCHIOSTRO E ACQUERELLO SU PERGAMENA"
+    "tecnica": "INCHIOSTRO E ACQUERELLO SU PERGAMENA",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 11,
     "immagine": "Opera11.png",
     "autore": "PISANELLO",
     "titolo": "STDI DI NUDO E UN'ANNUNCIAZIONE",
-    "tecnica": "PENNA E INCHIOSTRO"
+    "tecnica": "PENNA E INCHIOSTRO",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 12,
     "immagine": "Opera12.png",
     "autore": "PISANELLO",
     "titolo": "STUDI DI COSTUME",
-    "tecnica": "PENNA INCHIOSTRO E ACQUERELLO"
+    "tecnica": "PENNA INCHIOSTRO E ACQUERELLO",
+    "periodo": "IL MEDIOEVO IN EUROPA"
   },
   {
     "id": 13,
     "immagine": "Opera13.png",
     "autore": "DONATELLO",
     "titolo": "GIOVANE CORONATO D'ALLORO",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO, ACQUERELLO GRIGIO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO, ACQUERELLO GRIGIO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 14,
     "immagine": "Opera14.png",
     "autore": "PAOLO UCCELLLO",
     "titolo": "PROFILO CON TURBANTE",
-    "tecnica": "BISTRO E ACQUERELLO SU CARTA TINTA"
+    "tecnica": "BISTRO E ACQUERELLO SU CARTA TINTA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 15,
     "immagine": "Opera15.png",
     "autore": "BENOZZO GOZZOLI",
     "titolo": "TESTA DI SAN LORENZO",
-    "tecnica": "PUNTA D'ARGENTO RIALZATA DI BIACCA SU C.P. ARANCIONE"
+    "tecnica": "PUNTA D'ARGENTO RIALZATA DI BIACCA SU C.P. ARANCIONE",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 16,
     "immagine": "Opera16.png",
     "autore": "ANTONIO POLLAIOLO",
     "titolo": "CAVALIERE E NEMICO CADUTO",
-    "tecnica": "PENNA E BISTRO SU CARTA TINTA"
+    "tecnica": "PENNA E BISTRO SU CARTA TINTA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 17,
     "immagine": "Opera17.png",
     "autore": "BOTTICELLI",
     "titolo": "ABBONDANZA E AUTUNNO",
-    "tecnica": "PENNA E INCHIOSTRO, ACQUERELLO BRUNO, RIALZATO DI BIANCO SU TRACCIA DI CARBONCINO, C.P. ROSA"
+    "tecnica": "PENNA E INCHIOSTRO, ACQUERELLO BRUNO, RIALZATO DI BIANCO SU TRACCIA DI CARBONCINO, C.P. ROSA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 18,
     "immagine": "Opera18.png",
     "autore": "VERROCCHIO",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "PUNTA METALLICA RIALZATA DI BIANCO"
+    "tecnica": "PUNTA METALLICA RIALZATA DI BIANCO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 19,
     "immagine": "Opera19.png",
     "autore": "FILIPPINO LIPPI",
     "titolo": "TESTA DI VECCHIO",
-    "tecnica": "PUNTA METALLICA RIALZATA DI BIANCO SU C.P. ARDESIA"
+    "tecnica": "PUNTA METALLICA RIALZATA DI BIANCO SU C.P. ARDESIA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 20,
     "immagine": "Opera20.png",
     "autore": "LORENZO DI CREDI",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "PUNTA D'ARGENTO E LUMEGGIATURE A BIACCA SU CARTA CREMA"
+    "tecnica": "PUNTA D'ARGENTO E LUMEGGIATURE A BIACCA SU CARTA CREMA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 21,
     "immagine": "Opera21.png",
     "autore": "PERUGINO",
     "titolo": "STUDI DI UOMINI E UNA MADONNA",
-    "tecnica": "PUNTA D'ARGENTO E LUMEGGIATURE A BIACCA"
+    "tecnica": "PUNTA D'ARGENTO E LUMEGGIATURE A BIACCA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 22,
     "immagine": "Opera22.png",
     "autore": "LUCA SIGNORELLI",
     "titolo": "ERCOLE E ANTEO",
-    "tecnica": "GESSETTO GRIGIO"
+    "tecnica": "GESSETTO GRIGIO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 23,
     "immagine": "Opera23.png",
     "autore": "JACOPO BELLINI",
     "titolo": "FLAGELLAZIONE DI CRISTO",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 24,
     "immagine": "Opera24.png",
     "autore": "ANDREA MANTEGNA",
     "titolo": "MARTE VENERE E DIANA",
-    "tecnica": "PENNA, INCHIOSTRO E ACQUERELLO BRUNO CON TOCCHI DI BIANCO E DI COLORE"
+    "tecnica": "PENNA, INCHIOSTRO E ACQUERELLO BRUNO CON TOCCHI DI BIANCO E DI COLORE",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 25,
     "immagine": "Opera25.png",
     "autore": "ERCOLE DE ROBERTI",
     "titolo": "STUDI PER UNA CROCIFISSIONE",
-    "tecnica": "PENNA E PENNELLO BRUNO RIALZATO DI BIANCO SU CARTA GRIGIA"
+    "tecnica": "PENNA E PENNELLO BRUNO RIALZATO DI BIANCO SU CARTA GRIGIA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 26,
     "immagine": "Opera26.png",
     "autore": "MARCO ZOPPO",
     "titolo": "SEI STUDI DI MADONNA COL BAMBINO",
-    "tecnica": "PENNA, INCHIOSTRO BRUNO E ACQUERELLO SU CARTA COLORATA ROSA"
+    "tecnica": "PENNA, INCHIOSTRO BRUNO E ACQUERELLO SU CARTA COLORATA ROSA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 27,
     "immagine": "Opera27.png",
     "autore": "GIOVANNI BELLINI",
     "titolo": "RITRATTO DI GENTILE BELLINI",
-    "tecnica": "MATITA NERA"
+    "tecnica": "MATITA NERA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 28,
     "immagine": "Opera28.png",
     "autore": "GIOVANNI BELLINI",
     "titolo": "PIETÀ",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 29,
     "immagine": "Opera29.png",
     "autore": "GENTILE BELLINI",
     "titolo": "PROCESSIONE IN CAMPO SAN LIO",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 30,
     "immagine": "Opera30.png",
     "autore": "VITTORE CARPACCIO",
     "titolo": "SOGNO DI SANT'ORSOLA",
-    "tecnica": "PENNA E PENNELLO CON INCHIOSTRO BRUNO SU CARTA GIALLINA"
+    "tecnica": "PENNA E PENNELLO CON INCHIOSTRO BRUNO SU CARTA GIALLINA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 31,
     "immagine": "Opera31.png",
     "autore": "VITTORE CARPACCIO",
     "titolo": "TESTA DI GIOVANE",
-    "tecnica": "GESSETTO NERO, PENNELLO E INCHIOSTRO BRUNO RIALZATO A BIACCA SU CARTA AZZURRA"
+    "tecnica": "GESSETTO NERO, PENNELLO E INCHIOSTRO BRUNO RIALZATO A BIACCA SU CARTA AZZURRA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 32,
     "immagine": "Opera32.png",
     "autore": "JAN VAN EYCK",
     "titolo": "IL CARDINALE NICOLA ALBERGATI",
-    "tecnica": "PUNTA D'ARGENTO"
+    "tecnica": "PUNTA D'ARGENTO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 33,
     "immagine": "Opera33.png",
     "autore": "ANTONELLO DA MESSINA",
     "titolo": "RITRATTO DI GIOVANE",
-    "tecnica": "CARBONCINO SFUMATO SU CARTA BRUNA"
+    "tecnica": "CARBONCINO SFUMATO SU CARTA BRUNA",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 34,
     "immagine": "Opera34.png",
     "autore": "JEAN FOUQET",
     "titolo": "RITRATTO DI ECCLESIASTICO",
-    "tecnica": "PUNTA D'ARGENTO"
+    "tecnica": "PUNTA D'ARGENTO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 35,
     "immagine": "Opera35.png",
     "autore": "ROGIER VAN DER WEYDEN",
     "titolo": "MADONNA COL BAMBINO",
-    "tecnica": "PUNTA D'ARGENTO"
+    "tecnica": "PUNTA D'ARGENTO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 36,
     "immagine": "Opera36.png",
     "autore": "KONRAD WITZ",
     "titolo": "MADONNA CON BAMBINO",
-    "tecnica": "PENNA E TINTEGGIATURA IN INCHIOSTRO DI CHINA, ACQUERELLO"
+    "tecnica": "PENNA E TINTEGGIATURA IN INCHIOSTRO DI CHINA, ACQUERELLO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 37,
     "immagine": "Opera37.png",
     "autore": "BOSCH",
     "titolo": "ALBERO FANTASTICO IN FORMA D'UOMO",
-    "tecnica": "PENNA E BISTRO"
+    "tecnica": "PENNA E BISTRO",
+    "periodo": "LA PRIMA RINASCENZA"
   },
   {
     "id": 38,
     "immagine": "Opera38.png",
     "autore": "DONATO BRAMANTE",
     "titolo": "SAN CRISTOFORO",
-    "tecnica": "PUNTA D'ARGENTO RIALZATA A BIACCA SU CARTA AZZURRA"
+    "tecnica": "PUNTA D'ARGENTO RIALZATA A BIACCA SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 39,
     "immagine": "Opera39.png",
     "autore": "LEONARDO DA VINCI",
     "titolo": "SCENE DI BATTAGLIA CON CAVALIERI",
-    "tecnica": "PENNA, INCHIOSTRO MARRONE"
+    "tecnica": "PENNA, INCHIOSTRO MARRONE",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 40,
     "immagine": "Opera40.png",
     "autore": "LEONARDO DA VINCI",
     "titolo": "BUSTO DI PROFILO, SCHEMA DELLE MISURE DELLA TESTA UMANA, STUDIO DI CAVALLO E CAVALIERI",
-    "tecnica": "PENNA, MATITA NERA, SANGUIGNA E INCHIOSTRO MARRONE"
+    "tecnica": "PENNA, MATITA NERA, SANGUIGNA E INCHIOSTRO MARRONE",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 41,
     "immagine": "Opera41.png",
     "autore": "LEONARDO DA VINCI",
     "titolo": "STUDIO DI PANNEGGIO",
-    "tecnica": "PUNTA METALLICA, CARBONCINO, BISTRO E BIACCA"
+    "tecnica": "PUNTA METALLICA, CARBONCINO, BISTRO E BIACCA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 42,
     "immagine": "Opera42.png",
     "autore": "LEONARDO DA VINCI",
     "titolo": "AUTORITRATTO",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 43,
     "immagine": "Opera43.png",
     "autore": "MICHELANGELO",
     "titolo": "TESTA DI PROFILO",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 44,
     "immagine": "Opera44.png",
     "autore": "MICHELANGELO",
     "titolo": "CROCIFISSIONE",
-    "tecnica": "GESSETTO NERO E BIACCA"
+    "tecnica": "GESSETTO NERO E BIACCA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 45,
     "immagine": "Opera45.png",
     "autore": "RAFFAELLO",
     "titolo": "SANTA CATERINA D'ALESSANDRIA",
-    "tecnica": "CARBONCINO RIALZATO IN BIANCO"
+    "tecnica": "CARBONCINO RIALZATO IN BIANCO",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 46,
     "immagine": "Opera46.png",
     "autore": "RAFFAELLO",
     "titolo": "TESTA D'ANGELO",
-    "tecnica": "CARBONCINO RIALZATO IN BIANCO"
+    "tecnica": "CARBONCINO RIALZATO IN BIANCO",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 47,
     "immagine": "Opera47.png",
     "autore": "RAFFAELLO",
     "titolo": "DONNA CHE LEGGE UN BAMBINO",
-    "tecnica": "PUNTA METALLICA, RIALZATA DI BIANCO"
+    "tecnica": "PUNTA METALLICA, RIALZATA DI BIANCO",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 48,
     "immagine": "Opera48.png",
     "autore": "ANDREA DEL SARTO",
     "titolo": "TESTA DI PROFILO",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 49,
     "immagine": "Opera49.png",
     "autore": "FRA' BARTOLOMEO",
     "titolo": "TESTA DI UOMO ANZIANO",
-    "tecnica": "CARBONCINO"
+    "tecnica": "CARBONCINO",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 50,
     "immagine": "Opera50.png",
     "autore": "PONTORMO",
     "titolo": "DUE DONNE VELATE",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 51,
     "immagine": "Opera51.png",
     "autore": "DOMENICO BECCAFUMI",
     "titolo": "NUDO DISTESO",
-    "tecnica": "MATITA NERA, PENNELLO E BISTRO, LUMEGGIATURE A BIACCA"
+    "tecnica": "MATITA NERA, PENNELLO E BISTRO, LUMEGGIATURE A BIACCA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 52,
     "immagine": "Opera52.png",
     "autore": "PARMIGIANINO",
     "titolo": "LE NOZZE MISTICHE DI SANTA CATERINA",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO, ACQUERELLATE IN SEPPIA, LUMEGGIATURE A BIACCA SU CARTA TINTA IN ROSA"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO, ACQUERELLATE IN SEPPIA, LUMEGGIATURE A BIACCA SU CARTA TINTA IN ROSA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 53,
     "immagine": "Opera53.png",
     "autore": "CORREGGIO",
     "titolo": "EVA",
-    "tecnica": "SANGUIGNA RIALZATA IN BIANCO"
+    "tecnica": "SANGUIGNA RIALZATA IN BIANCO",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 54,
     "immagine": "Opera54.png",
     "autore": "NICOLÒ DELL'ABATE",
     "titolo": "GIOVANE CHE ABBRACCIA UNA DONNA IGNUDA",
-    "tecnica": "PENNA E BISTRO CON LUMEGGIATURE IN BIANCO SU CARTA BRUNA"
+    "tecnica": "PENNA E BISTRO CON LUMEGGIATURE IN BIANCO SU CARTA BRUNA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 55,
     "immagine": "Opera55.png",
     "autore": "FEDERICO BAROCCI",
     "titolo": "TESTA DI PROFILO",
-    "tecnica": "TRE GESSETTI SU CARTA AZZURRA"
+    "tecnica": "TRE GESSETTI SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 56,
     "immagine": "Opera56.png",
     "autore": "LUCA CAMBIASO",
     "titolo": "VENERE TRATTIENE ADONE",
-    "tecnica": "PENNA E INCHIOSTRO SEPPIA SU CARTA"
+    "tecnica": "PENNA E INCHIOSTRO SEPPIA SU CARTA",
+    "periodo": "IL CINQUECENTO DA FIRENZE A ROMA"
   },
   {
     "id": 57,
     "immagine": "Opera57.png",
     "autore": "GIORGIONE",
     "titolo": "PASTORELLO",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 58,
     "immagine": "Opera58.png",
     "autore": "LORENZO LOTTO",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "PUNTA D'ARGENTO PENNELLATO A BIACCA"
+    "tecnica": "PUNTA D'ARGENTO PENNELLATO A BIACCA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 59,
     "immagine": "Opera59.png",
     "autore": "LORENZO LOTTO",
     "titolo": "MARTIRIO DI UN SANTO",
-    "tecnica": "PENNA, INCHIOSTRO BRUNO, MATITA NERA"
+    "tecnica": "PENNA, INCHIOSTRO BRUNO, MATITA NERA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 60,
     "immagine": "Opera60.png",
     "autore": "LORENZO LOTTO",
     "titolo": "PRELATO NELLO STUDIO",
-    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO CON LUMEGGIATURE A BIACCA"
+    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO CON LUMEGGIATURE A BIACCA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 61,
     "immagine": "Opera61.png",
     "autore": "SEBASTIANO DEL PIOMBO",
     "titolo": "DONNA NUDA IN PIEDI",
-    "tecnica": "GESSETTO NERO RIALZATO IN BIANCO SU CARTA AZZURRA"
+    "tecnica": "GESSETTO NERO RIALZATO IN BIANCO SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 62,
     "immagine": "Opera62.png",
     "autore": "TIZIANO VECELLIO",
     "titolo": "RITRATTO DI GIOVANE DONNA",
-    "tecnica": "GESSETTO NERO RIALZATO DI GESSETTO BIANCO"
+    "tecnica": "GESSETTO NERO RIALZATO DI GESSETTO BIANCO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 63,
     "immagine": "Opera63.png",
     "autore": "TIZIANO VECELLIO",
     "titolo": "COPPIA MITOLOGICA ABBRACCIATA",
-    "tecnica": "CARBONCINO LUMEGGIATURE A BIACCA"
+    "tecnica": "CARBONCINO LUMEGGIATURE A BIACCA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 64,
     "immagine": "Opera64.png",
     "autore": "TIZIANO VECELLIO",
     "titolo": "PAESAGGIO CON DONNA NUDA DORMIENTE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO CON LUMEGGIATURE A BIACCA"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO CON LUMEGGIATURE A BIACCA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 65,
     "immagine": "Opera65.png",
     "autore": "DOMENICO CAMPAGNOLA",
     "titolo": "GIUDIZIO DI PARIDE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 66,
     "immagine": "Opera66.png",
     "autore": "PORDENONE",
     "titolo": "MARTIRIO DI SAN PIETRO MARTIRE",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 67,
     "immagine": "Opera67.png",
     "autore": "ANDREA SCHIAVONE",
     "titolo": "ANNUNCIAZIONE",
-    "tecnica": "GESSETTO NERO, PENNELLO E INCHIOSTRO BRUNO RIALZATO DI BIANCO"
+    "tecnica": "GESSETTO NERO, PENNELLO E INCHIOSTRO BRUNO RIALZATO DI BIANCO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 68,
     "immagine": "Opera68.png",
     "autore": "JACOPO BASSANO",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "PENNELLO E OLIO BRUNO, GRIGIO ROSSO E BIANCO"
+    "tecnica": "PENNELLO E OLIO BRUNO, GRIGIO ROSSO E BIANCO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 69,
     "immagine": "Opera69.png",
     "autore": "JACOPO BASSANO",
     "titolo": "FLAGELLAZIONE",
-    "tecnica": "GESSETTI COLORATI SU CARTA AZZURRA"
+    "tecnica": "GESSETTI COLORATI SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 70,
     "immagine": "Opera70.png",
     "autore": "JACOPO BASSANO",
     "titolo": "DIANA",
-    "tecnica": "GESSETTO NERO RIALZATO DI BIANCO SU CARTA AZZURRA"
+    "tecnica": "GESSETTO NERO RIALZATO DI BIANCO SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 71,
     "immagine": "Opera71.png",
     "autore": "JACOPO TINTORETTO",
     "titolo": "ARCIERE",
-    "tecnica": "GESSETTO NERO SU CARTA MARRONCINA"
+    "tecnica": "GESSETTO NERO SU CARTA MARRONCINA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 72,
     "immagine": "Opera72.png",
     "autore": "JACOPO TINTORETTO",
     "titolo": "VENERE, VULCANO E MARTE",
-    "tecnica": "PENNA E PENNELLO, INCHIOSTRO NERO E LUMEGGIATURE BIACCA SU CARTA AZZURRA"
+    "tecnica": "PENNA E PENNELLO, INCHIOSTRO NERO E LUMEGGIATURE BIACCA SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 73,
     "immagine": "Opera73.png",
     "autore": "DOMENICO TINTORETTO",
     "titolo": "SCENA DI CONTADINI",
-    "tecnica": "CARBONCINO E PENNELLO, TEMPERA GRIGIA E BIACCA SU CARTA AZZURRINA"
+    "tecnica": "CARBONCINO E PENNELLO, TEMPERA GRIGIA E BIACCA SU CARTA AZZURRINA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 74,
     "immagine": "Opera74.png",
     "autore": "EL GRECO",
     "titolo": "STUDIA DAL GIORNO DI MICHELANGELO",
-    "tecnica": "GESSETTO NERO E BIANCO E ACQUERELLO SU CARTA AZZURRA"
+    "tecnica": "GESSETTO NERO E BIANCO E ACQUERELLO SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 75,
     "immagine": "Opera75.png",
     "autore": "JACOPO PALMA IL GIOVANE",
     "titolo": "DEPOSIZIONE",
-    "tecnica": "PENNA E ACQUERELLO RIALZATO CON ORO SU CARTA GRIGIO VERDASTRA"
+    "tecnica": "PENNA E ACQUERELLO RIALZATO CON ORO SU CARTA GRIGIO VERDASTRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 76,
     "immagine": "Opera76.png",
     "autore": "PAOLO VERONESE",
     "titolo": "FOGLIO DI STUDI",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 77,
     "immagine": "Opera77.png",
     "autore": "PAOLO VERONESE",
     "titolo": "LA VITTORIA",
-    "tecnica": "PENNA E BISTRO CON LUMEGGIATURE BIANCHE SU CARTA PREPARATA GRIGIO O AZZURRO"
+    "tecnica": "PENNA E BISTRO CON LUMEGGIATURE BIANCHE SU CARTA PREPARATA GRIGIO O AZZURRO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 78,
     "immagine": "Opera78.png",
     "autore": "PAOLO VERONESE",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "GESSETTO NERO E BIANCO SU CARTA AZZURRA"
+    "tecnica": "GESSETTO NERO E BIANCO SU CARTA AZZURRA",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 79,
     "immagine": "Opera79.png",
     "autore": "CARLETTO CALIARI",
     "titolo": "RITRATTO D'UOMO",
-    "tecnica": "GESSETTO NERO, BRUNO E ROSSO, TRACCE DI GESSETTO BIANCO"
+    "tecnica": "GESSETTO NERO, BRUNO E ROSSO, TRACCE DI GESSETTO BIANCO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 80,
     "immagine": "Opera80.png",
     "autore": "FEDERICO ZUCCARI",
     "titolo": "TADDEO ZUCCARI GIOVINETTO IN CASA DI GIOVANNI PIERO",
-    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO A VENEZIA"
   },
   {
     "id": 81,
     "immagine": "Opera81.png",
     "autore": "MARTIN SCHONGAUER",
     "titolo": "MADONNA COL BAMBINO E IL GAROFANO",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 82,
     "immagine": "Opera82.png",
     "autore": "ALBRECHT DURER",
     "titolo": "MADONNA DEGLI ANIMALI",
-    "tecnica": "PENNA, INCHIOSTRO NERO E ACQUERELLO"
+    "tecnica": "PENNA, INCHIOSTRO NERO E ACQUERELLO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 83,
     "immagine": "Opera83.png",
     "autore": "ALBRECHT DURER",
     "titolo": "VEDUTA DI ARCO",
-    "tecnica": "ACQUERELLO E GUAZZO"
+    "tecnica": "ACQUERELLO E GUAZZO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 84,
     "immagine": "Opera84.png",
     "autore": "ALBRECHT DURER",
     "titolo": "LEPRE",
-    "tecnica": "ACQUERELLO E LUMEGGIATURE A TEMPERA SU CARTA"
+    "tecnica": "ACQUERELLO E LUMEGGIATURE A TEMPERA SU CARTA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 85,
     "immagine": "Opera85.png",
     "autore": "ALBRECHT DURER",
     "titolo": "ZOLLA D'ERBA",
-    "tecnica": "ACQUERELLO E GUAZZO"
+    "tecnica": "ACQUERELLO E GUAZZO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 86,
     "immagine": "Opera86.png",
     "autore": "ALBRECHT DURER",
     "titolo": "TESTA DI DONNA",
-    "tecnica": "CARBONCINO CON SFONDO IN ACQUERELLO IN VERDE OLIVA"
+    "tecnica": "CARBONCINO CON SFONDO IN ACQUERELLO IN VERDE OLIVA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 87,
     "immagine": "Opera87.png",
     "autore": "CRANACH IL VECCHIO",
     "titolo": "TESTA DI UOMO CON BERRETTO DI PELLICCIA",
-    "tecnica": "PENNELLO E ACQUERELLO, ACCENTUATO A PENNA"
+    "tecnica": "PENNELLO E ACQUERELLO, ACCENTUATO A PENNA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 88,
     "immagine": "Opera88.png",
     "autore": "MATHIS GRUNEWALD",
     "titolo": "TRE TESTE",
-    "tecnica": "GESSETTO NERO"
+    "tecnica": "GESSETTO NERO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 89,
     "immagine": "Opera89.png",
     "autore": "BALDUNG GREIN",
     "titolo": "LA DONNA E LA MORTE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO, LUMEGGIATURE A BIACCA SU CARTA PREPARATA,BRUNA"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO, LUMEGGIATURE A BIACCA SU CARTA PREPARATA,BRUNA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 90,
     "immagine": "Opera90.png",
     "autore": "DEUTSCH",
     "titolo": "ALLEGORIA DELLA MORTE",
-    "tecnica": "PENNA E INCHIOSTRO DI CHINA RIALZATO DI BIANCO SU CARTA PREPARATA IN OCRA"
+    "tecnica": "PENNA E INCHIOSTRO DI CHINA RIALZATO DI BIANCO SU CARTA PREPARATA IN OCRA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 91,
     "immagine": "Opera91.png",
     "autore": "URS GRAF",
     "titolo": "COPPIA VISTA DA DIETRO",
-    "tecnica": "PENNA E INCHIOSTRO DI CHINA"
+    "tecnica": "PENNA E INCHIOSTRO DI CHINA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 92,
     "immagine": "Opera92.png",
     "autore": "URS GRAF",
     "titolo": "DAMA",
-    "tecnica": "PENNA E INCHIOSTRO DI CHINA"
+    "tecnica": "PENNA E INCHIOSTRO DI CHINA",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 93,
     "immagine": "Opera93.png",
     "autore": "LUCA DA LEIDA",
     "titolo": "FANCIULLA CHE LEGGE",
-    "tecnica": "GESSETTO NERO"
+    "tecnica": "GESSETTO NERO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 94,
     "immagine": "Opera94.png",
     "autore": "HOLBEIN IL GIOVANE",
     "titolo": "RITRATTO DI DAMA",
-    "tecnica": "GESSETTO NERO E COLORATI"
+    "tecnica": "GESSETTO NERO E COLORATI",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 95,
     "immagine": "Opera95.png",
     "autore": "BRUEGEL IL VECCHIO",
     "titolo": "I CIECHI",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 96,
     "immagine": "Opera96.png",
     "autore": "BRUEGEL IL VECCHIO",
     "titolo": "VEDUTA DI RIPA GRANDE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 97,
     "immagine": "Opera97.png",
     "autore": "HENDRICK GOLTZIUS",
     "titolo": "DAFNE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO SU TRACCIA DI SANGUIGNA E GESSETTO NERO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO SU TRACCIA DI SANGUIGNA E GESSETTO NERO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 98,
     "immagine": "Opera98.png",
     "autore": "HENDRICK GOLTZIUS",
     "titolo": "PAESAGGIO CON ALBERI",
-    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA, PENNELLO E INCHIOSTRO BRUNO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 99,
     "immagine": "Opera99.png",
     "autore": "FRANCOIS CLOUET",
     "titolo": "RITRATTO DI GENTILUOMO",
-    "tecnica": "GESSETTO NERO E ROSSO"
+    "tecnica": "GESSETTO NERO E ROSSO",
+    "periodo": "IL CINQUECENTO IN EUROPA"
   },
   {
     "id": 100,
     "immagine": "Opera100.png",
     "autore": "LUDOVICO CARRACCI",
     "titolo": "QUATTRO FIGURE PER L'AFFRESCO CON SAN PIETRO IN CASA DI SIMON CUOIAIO",
-    "tecnica": "SANGUIGNA E LUMEGGIATURE A BIACCA SU CARTA"
+    "tecnica": "SANGUIGNA E LUMEGGIATURE A BIACCA SU CARTA",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 101,
     "immagine": "Opera101.png",
     "autore": "AGOSTINO CARRACCI",
     "titolo": "ANCHISE E VENERE",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO SU TRACCIA DI SANGUIGNA"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO SU TRACCIA DI SANGUIGNA",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 102,
     "immagine": "Opera102.png",
     "autore": "ANNIBALE CARRACCI",
     "titolo": "PAESAGGIO CON FIUME E BARCA",
-    "tecnica": "PENNA E INCHIOSTRO BRUNO"
+    "tecnica": "PENNA E INCHIOSTRO BRUNO",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 103,
     "immagine": "Opera103.png",
     "autore": "ANNIBALE CARRACCI",
     "titolo": "RITRATTO DI UOMO PENSOSO",
-    "tecnica": "GESSETTO NERO SU CARTA BIANCA"
+    "tecnica": "GESSETTO NERO SU CARTA BIANCA",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 104,
     "immagine": "Opera104.png",
     "autore": "ANNIBALE CARRACCI",
     "titolo": "FANCIULLO MALATO",
-    "tecnica": "SANGUIGNA ACQUERELLATO"
+    "tecnica": "SANGUIGNA ACQUERELLATO",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 105,
     "immagine": "Opera105.png",
     "autore": "CECCO BRAVO",
     "titolo": "FANCIULLA DI PROFILO",
-    "tecnica": "SANGUIGNA"
+    "tecnica": "SANGUIGNA",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 106,
     "immagine": "Opera106.png",
     "autore": "GUERCINO",
     "titolo": "BUSTO DI DONNA DI PROFILO",
-    "tecnica": "PENNA SU CARTA AVORIO"
+    "tecnica": "PENNA SU CARTA AVORIO",
+    "periodo": "IL SEICENTO IN ITALIA"
   },
   {
     "id": 107,
     "immagine": "Opera107.png",
     "autore": "GUERCINO",
     "titolo": "NOZZE MISTICHE DI SANTA CATERINA",
-    "tecnica": "GESSETTO NERO, PENNA, PENNELLO E INCHIOSTRO BRUNO"
+    "tecnica": "GESSETTO NERO, PENNA, PENNELLO E INCHIOSTRO BRUNO",
+    "periodo": "IL SEICENTO IN ITALIA"
   }
 ];
