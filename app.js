@@ -15,6 +15,7 @@ const btnStudyMode = document.getElementById('btn-study-mode');
 const btnLibraryMode = document.getElementById('btn-library-mode');
 const viewStudy = document.getElementById('view-study');
 const viewLibrary = document.getElementById('view-library');
+const btnThemeToggle = document.getElementById('btn-theme-toggle');
 
 // Flashcard elements
 const flashcard = document.getElementById('flashcard');
@@ -70,6 +71,7 @@ const modalCloseBackdrop = document.getElementById('modal-close-backdrop');
 // ==========================================================================
 function init() {
   loadState();
+  loadTheme();
   buildFilters();
   initDeck();
   renderCard();
@@ -101,6 +103,54 @@ function saveState() {
     localStorage.setItem('gagliano_starred', JSON.stringify([...starredSet]));
   } catch (e) {
     console.error("Errore nel salvataggio del progresso:", e);
+  }
+}
+
+// Load theme preference
+function loadTheme() {
+  if (!btnThemeToggle) return;
+  
+  let savedTheme = 'dark';
+  try {
+    savedTheme = localStorage.getItem('gagliano_theme') || 'dark';
+  } catch (e) {
+    console.warn("Storage non accessibile, uso tema notte come default:", e);
+  }
+  
+  const sunIcon = btnThemeToggle.querySelector('.sun-icon');
+  const moonIcon = btnThemeToggle.querySelector('.moon-icon');
+  
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-theme');
+    if (sunIcon) sunIcon.style.display = 'none';
+    if (moonIcon) moonIcon.style.display = 'block';
+  } else {
+    document.body.classList.remove('light-theme');
+    if (sunIcon) sunIcon.style.display = 'block';
+    if (moonIcon) moonIcon.style.display = 'none';
+  }
+}
+
+// Toggle between light and dark themes
+function toggleTheme() {
+  if (!btnThemeToggle) return;
+  
+  const isLight = document.body.classList.toggle('light-theme');
+  const sunIcon = btnThemeToggle.querySelector('.sun-icon');
+  const moonIcon = btnThemeToggle.querySelector('.moon-icon');
+  
+  try {
+    localStorage.setItem('gagliano_theme', isLight ? 'light' : 'dark');
+  } catch (e) {
+    console.warn("Storage non accessibile, preferenza non salvata:", e);
+  }
+  
+  if (isLight) {
+    if (sunIcon) sunIcon.style.display = 'none';
+    if (moonIcon) moonIcon.style.display = 'block';
+  } else {
+    if (sunIcon) sunIcon.style.display = 'block';
+    if (moonIcon) moonIcon.style.display = 'none';
   }
 }
 
@@ -524,6 +574,11 @@ function closeModal() {
 // EVENT LISTENERS Setup
 // ==========================================================================
 function setupEventListeners() {
+  // Theme Switcher Click Handler
+  if (btnThemeToggle) {
+    btnThemeToggle.addEventListener('click', toggleTheme);
+  }
+
   // Navigation Tabs
   btnStudyMode.addEventListener('click', () => {
     btnStudyMode.classList.add('active');
