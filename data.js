@@ -1174,7 +1174,7 @@ const OPERE_DATA = [
     "id": 131,
     "immagine": "Opera131.png",
     "autore": "REMBRANDT",
-    "titolo": "SASKIA ALLA FINESTRA",
+    "titolo": "SASKIA A LETTO, CON UN'ASSISTENTE",
     "tecnica": "PENNA E PENNELLO CON INCHIOSTRO BRUNO",
     "periodo": "IL SEICENTO IN EUROPA",
     "parte": 2
@@ -1183,7 +1183,7 @@ const OPERE_DATA = [
     "id": 132,
     "immagine": "Opera132.png",
     "autore": "REMBRANDT",
-    "titolo": "DONNA CON BAMBOLA",
+    "titolo": "SASKIA ALLA FINESTRA",
     "tecnica": "PENNELLO CON INCHIOSTRO NERO E GRIGIO, RIALZATO DI BIANCO",
     "periodo": "IL SEICENTO IN EUROPA",
     "parte": 2
@@ -1191,8 +1191,8 @@ const OPERE_DATA = [
   {
     "id": 133,
     "immagine": "Opera133.png",
-    "autore": "REMBRANDT",
-    "titolo": "SASKIA A LETTO, CON UN'ASSISTENTE",
+    "autore": "LEONARD BRAMER",
+    "titolo": "DONNA CON BAMBOLA",
     "tecnica": "PENNA, PENNELLO E ACQUERELLO, BISTRO E INCHIOSTRO INDIANO",
     "periodo": "IL SEICENTO IN EUROPA",
     "parte": 2
